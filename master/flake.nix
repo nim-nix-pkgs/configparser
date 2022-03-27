@@ -11,6 +11,7 @@
   inputs.src-configparser-master.ref   = "refs/heads/master";
   inputs.src-configparser-master.owner = "xmonader";
   inputs.src-configparser-master.repo  = "nim-configparser";
+  inputs.src-configparser-master.dir   = "";
   inputs.src-configparser-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
